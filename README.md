@@ -1,7 +1,7 @@
 ## Knapsack
 
 [knapsack](http://github.com/cmfatih/knapsack) is a Node.js module for 
-resource allocation solvings. See [the knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem).  
+resource allocation solving. See [the knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem).  
 
 [![Build Status][travis-image]][travis-url] | [![NPM][npm-image]][npm-url]
 ---------- | ----------

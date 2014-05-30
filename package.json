@@ -1,7 +1,7 @@
 {
   "name": "knapsack-js",
   "version": "0.1.0",
-  "description": "Knapsack module can be used for resource allocation solvings.",
+  "description": "Knapsack module can be used for resource allocation solving.",
   "keywords": [
     "knapsack",
     "problem",
