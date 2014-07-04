@@ -1,10 +1,8 @@
 ## Knapsack
+[![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 [knapsack](http://github.com/cmfatih/knapsack) is a Node.js module for 
 resource allocation solving. See [the knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem).  
-
-[![Build Status][travis-image]][travis-url] | [![NPM][npm-image]][npm-url]
----------- | ----------
 
 ### Installation
 
@@ -68,7 +66,6 @@ For all notable changes see [CHANGELOG.md](https://github.com/cmfatih/knapsack/b
 
 ### License
 
-Copyright (c) 2014 Fatih Cetinkaya (http://github.com/cmfatih/knapsack)  
 Licensed under The MIT License (MIT)  
 For the full copyright and license information, please view the LICENSE.txt file.
 
