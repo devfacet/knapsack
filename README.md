@@ -1,29 +1,17 @@
 ## Knapsack
+
 [![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-[knapsack](http://github.com/cmfatih/knapsack) is a Node.js module for 
-resource allocation solving. See [the knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem).  
+Knapsack is a module for resource allocation solving. For more information
+see [the knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem) wiki.
 
 ### Installation
 
-For latest release
 ```
 npm install knapsack-js
 ```
 
-For HEAD
-```
-git clone https://github.com/cmfatih/knapsack.git
-```
-
 ### Usage
-
-#### Test
-```
-npm test
-```
-
-#### Examples
 
 ```javascript
 var knapsack = require('knapsack-js');
@@ -59,10 +47,6 @@ knapsack.resolve(15, items);
   { durian: 1 } ]
 */
 ```
-
-### Changelog
-
-For all notable changes see [CHANGELOG.md](https://github.com/cmfatih/knapsack/blob/master/CHANGELOG.md)
 
 ### License
 
