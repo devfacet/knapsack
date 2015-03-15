@@ -1,7 +1,5 @@
-// Init reqs
 /* jslint node: true */
-/* global describe: false */
-/* global it: false */
+/* global describe: false, it: false */
 'use strict';
 
 var knapsack = require('../'),
@@ -9,10 +7,9 @@ var knapsack = require('../'),
 
 // Tests
 
-// Test for knapsack module
 describe('knapsack', function() {
 
-  // Test for resolve
+  // resolve
   describe('resolve()', function() {
     var items = [
           {"pear": 1},
