@@ -1,14 +1,14 @@
-# Ignored files
-
-# Examples
-#
-#   /.tmp-file-*
-#   /tmp-dir/*
-#   /symlink*
-#
-sources/
-node_modules/
-npm-debug.log
-
-*.heapsnapshot
 .DS_Store
+Thumbs.db
+
+*.log
+*.exe
+*.prof
+*.out
+
+tmp/
+logs/
+reports/
+releases/
+vendor/
+node_modules/

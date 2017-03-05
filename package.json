@@ -1,7 +1,15 @@
 {
   "name": "knapsack-js",
   "version": "1.0.1",
-  "description": "Knapsack module can be used for resource allocation solving.",
+  "description": "A module for resource allocation solving",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devfacet/knapsack.git"
+  },
   "keywords": [
     "knapsack",
     "problem",
@@ -9,30 +17,11 @@
     "resource",
     "allocation"
   ],
-  "homepage": "http://github.com/cmfatih/knapsack",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cmfatih/knapsack.git"
-  },
-  "bugs": {
-    "url": "http://github.com/cmfatih/knapsack/issues"
-  },
+  "author": "devfacet",
   "license": "MIT",
-  "private": false,
-  "author": {
-    "name": "cmfatih",
-    "url": "http://github.com/cmfatih"
-  },
-  "contributors": [],
-  "main": "lib/knapsack.js",
-  "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
-  },
-  "engines": [
-    "node >= 0.10.0"
-  ],
+  "homepage": "http://github.com/devfacet/knapsack",
   "devDependencies": {
-    "mocha": "2.2.x",
-    "chai": "2.1.x"
+    "mocha": "3.2.x",
+    "chai": "3.5.x"
   }
 }
