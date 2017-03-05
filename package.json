@@ -1,6 +1,6 @@
 {
   "name": "knapsack-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for resource allocation solving",
   "main": "index.js",
   "scripts": {
