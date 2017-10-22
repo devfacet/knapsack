@@ -68,4 +68,23 @@ describe('knapsack', function() {
       done();
     });
   });
+
+  // resolve
+  describe('resolve() - edge case', function() {
+    var items = [
+          {"pear": 5},
+          {"apple": 5},
+          {"grape": 0},
+          {"banana": 9},
+          {}
+        ];
+
+    it("should return resolved items (capacity: 10)", function(done) {
+      var resolvedItems = knapsack.resolve(10, items);
+      expect(resolvedItems).to.be.a('array');
+      expect(resolvedItems).to.have.property('length').to.be.equal(2);
+      expect(resolvedItems).to.deep.equal([{pear: 5}, {apple: 5}]);
+      done();
+    });
+  });
 });
