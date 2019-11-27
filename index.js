@@ -36,7 +36,7 @@ module.exports = function() {
         return false;
       }
     });
-    itemsFiltered.sort(function(a, b) { return a[Object.keys(a)[0]] < b[Object.keys(b)[0]]; });
+    itemsFiltered.sort(function(a, b) { return a[Object.keys(a)[0]] < b[Object.keys(b)[0]] ? 1 : -1 });
 
     for(item in itemsFiltered) {
       if(itemsFiltered.hasOwnProperty(item)) {
